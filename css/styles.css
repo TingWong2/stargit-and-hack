@@ -62,3 +62,43 @@ font-size: 2em;
 font-size: 1.2em;
 
 }
+
+
+/*Henri-Pierre page*/
+#page{
+     background: linear-gradient(to right, #FEB96D, #582F50);
+     
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+}
+.container-card{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}   
+.logo{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.description{
+    font-size: 1.5em;
+    
+}
+
+.list-hobbies{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
